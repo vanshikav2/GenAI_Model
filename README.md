@@ -30,15 +30,7 @@ The agent demonstrates a **GenAI-controlled workflow**, where the LLM determines
 
 ## Project Structure
 
-GenAI_Model
-|
-- agent.py # Main agent logic: parses LLM output, validates email, triggers actions
-- emailing.py # Handles sending emails via SMTP
-- llm.py # Interacts with OpenAI LLM to classify leads
-- main.py # Entry point with sample leads to run the agent
-- requirements.txt # Python dependencies
-- .env # Environment variables (API keys, SMTP credentials)
-
+<pre markdown> ```text Real_Estate_Lead_Classifier_/ ├── agent.py ├── emailing.py ├── llm.py ├── main.py ├── requirements.txt └── .env.example ``` </pre>
 
 
 
